@@ -14,14 +14,13 @@ const GEMINI_MODEL = "gemini-2.5-flash";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-
 // inisialisasi model AI
-const geminiModels = {
-    text: "gemini-2.5-flash-lite",
-    image: "gemini-2.5-flash",
-    audio: "gemini-2.5-flash",
-    document: "gemini-2.5-flash-lite"
-};
+// const geminiModels = {
+//     text: "gemini-2.5-flash-lite",
+//     image: "gemini-2.5-flash",
+//     audio: "gemini-2.5-flash",
+//     document: "gemini-2.5-flash-lite"
+// };
  
 // inisialisasi aplikasi back-end/server
 app.use(cors()); // .use() --> panggil/bikin middleware
