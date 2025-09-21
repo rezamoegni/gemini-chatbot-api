@@ -125,8 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
                 const data = await response.json();
-                thinkingMessageElement.textContent = data.result;
-                addMessage(data.result, 'bot', true);
+                thinkingMessageElement.innerHTML = renderMarkdown(data.result);
                 return;
             }
 
@@ -139,8 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
 
             const data = await response.json();
-            thinkingMessageElement.textContent = data.result;
-            addMessage(data.result, 'bot', true);
+            thinkingMessageElement.innerHTML = renderMarkdown(data.result);
 
         } catch (error) {
             console.error('Error fetching chat response:', error);
