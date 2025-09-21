@@ -1,6 +1,8 @@
 # Gemini-Powered Chatbot
 
-This project is a full-stack, real-time chatbot that allows users to have a conversation with a Gemini-powered AI model. The application supports not only text-based chat but also the ability to upload various file types, including images, documents, and audio, for the AI to process.
+This project is final assignment for AI Productivity and AI API Integration for Developers course by Hacktiv8. A full-stack, real-time chatbot that allows users to have a conversation with a Gemini-powered AI model. The application supports not only text-based chat but also the ability to upload various file types, including images, documents, and audio, for the AI to process.
+
+
 
 ---
 
